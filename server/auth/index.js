@@ -1,3 +1,5 @@
+'use strict';
+
 module.exports = {
   // Verifies the User matches the role or it will redirect
   verifyUser: function(req, res, next) {

@@ -1,3 +1,5 @@
+'use strict';
+
 var helmet = require('helmet');
 var config = require('./environment');
 var cookieSession = require('cookie-session');
