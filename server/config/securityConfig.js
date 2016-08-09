@@ -24,7 +24,7 @@ module.exports = function(app) {
 
   } else { // On Bluemix
 
-    // app.set('trust proxy', 1) // trust first proxy
+    app.set('trust proxy', 1) // trust first proxy
 
     // Homegrown middleware to redirect to HTTPS
     app.use(requireHTTPS);
