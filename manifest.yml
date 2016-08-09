@@ -1,6 +1,6 @@
 applications:
 - path: .
-  memory: 8G
+  memory: 7G
   instances: 1
   domain: mybluemix.net
   name: SecurityLunchAndLearn
