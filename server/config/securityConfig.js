@@ -31,9 +31,9 @@ module.exports = function(app) {
 
     app.use(cookieSession({
         secret: config.secrets.session,
-        secure: true,
-        secureProxy: true,
-        httpOnly: true
+        secure: true, // Cookie only sent via HTTPS
+        secureProxy: true, // Proxy is secure (Datapower)
+        httpOnly: true // Cookies are not accessible via javascript
     }));
   }
 

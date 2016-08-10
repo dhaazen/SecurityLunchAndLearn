@@ -17,8 +17,8 @@ module.exports = function(app) {
 
         // Match found
         if(user.id) {
-          return done(null, user);
-        } else { // No match return error
+          return done(null, user); // The first argument would be an error
+        } else { // No match return false
           return done(null, false);
         }
       });
