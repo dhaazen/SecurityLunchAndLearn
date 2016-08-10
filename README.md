@@ -4,7 +4,11 @@
 
 This project is to demonstrate a brief crash course on some NodeJS security modules and their implementations. 
 
-Please disregard the structure of the front-end code it is simply there to facilitate the backend work examples.
+Please disregard the structure of the frontend code it is simply there to facilitate the backend work examples.
+
+##Power Point to accompany Project
+
+https://securitylunchandlearn.mybluemix.net/client/assets/NodeSecurity.pptx
 
 ##Running application:
 
