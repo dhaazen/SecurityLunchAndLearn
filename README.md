@@ -35,3 +35,9 @@ https://securitylunchandlearn.mybluemix.net/login#admin
 
 - Express Security Best Practices - https://expressjs.com/en/advanced/best-practice-security.html
 - Github's CSP blog - http://githubengineering.com/githubs-csp-journey/
+
+
+# Discussion Points (JWT)
+
+- https://jwt.io/
+- https://github.com/auth0/node-jsonwebtoken
